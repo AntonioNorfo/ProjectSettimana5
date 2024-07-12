@@ -79,17 +79,63 @@ body {
   content-visibility: visible;
 }
 
-.trending {
-  display: flex;
-  align-items: center;
-  margin: 30px 40px;
-  font-weight: bold;
+.firstContainer {
+  border-bottom: 1px solid #e6e7e7;
 }
+
+.insideFirstContainer {
+  padding: 20px;
+}
+
 .secondContainer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trending {
+  display: flex;
+  align-items: center;
+  margin: 0px 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}
+
+.manDiv {
+  display: flex;
+  width: 30%;
+  margin: 10px;
 }
 .firstDiv p {
   font-size: 2rem;
+  color: #e6e7e7;
+  font-weight: bold;
+}
+
+.secondDiv p {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.secondDiv p:nth-of-type(1) {
+  align-items: center;
+}
+.secondDiv p:nth-of-type(2) {
+  font-weight: bold;
+}
+.secondDiv p:nth-of-type(3) {
+  color: #74767c;
+}
+.secondDiv p img {
+  width: 10%; /* Imposta una dimensione fissa per l'immagine */
+  height: auto; /* Mantiene il rapporto di aspetto originale */
+  margin-right: 10px;
+}
+.firstImg {
+  border-radius: 30px;
+}
+.bordImg {
+  border-radius: 8px;
 }
