@@ -180,7 +180,7 @@ body {
 }
 
 .nameInfo {
-  flex: 0.3;
+  flex: 0.5;
   padding: 15px;
 }
 
@@ -246,24 +246,30 @@ body {
 }
 .containerPrinc {
   display: flex;
+  justify-content: center;
+  padding: 3% 3%;
 }
 .footer {
-  flex-wrap: wrap;
+  width: 60%;
+}
+.subFooter {
   display: flex;
-  width: 20%;
+  flex-wrap: wrap;
+  width: 50%;
 }
 
 .btnFinal button {
   padding: 10px;
   color: #808080;
   margin: 3px;
+  background-color: white;
+  border: 1px solid #808080;
 }
 
 .link {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 0;
   list-style-type: none;
 }
 
