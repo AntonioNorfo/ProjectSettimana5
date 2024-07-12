@@ -175,16 +175,16 @@ body {
 
 .subContInfoImg {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   margin-bottom: 20px;
 }
 
 .nameInfo {
-  flex: 0.2;
+  flex: 0.3;
   padding: 15px;
 }
 
-.nameInfo p:first-child {
+.firstP {
   display: flex;
   align-items: center;
   font-weight: bold;
@@ -204,17 +204,25 @@ body {
   margin-top: 5px;
 }
 
+.nameInfo p:nth-child(3) {
+  font-size: 1.2rem;
+  margin-top: 5px;
+  color: #757575;
+}
+
 .nameInfo > div {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 5px;
 }
-
+.subContInfoImg .nameInfo > div:last-child {
+  color: #757575;
+}
 .nameInfo button {
   border-radius: 15px;
   background-color: #f2f3f3;
-  padding: 8px 15px;
+  padding: 5px 10px;
   border: none;
   cursor: pointer;
   color: #757575;
