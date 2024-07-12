@@ -244,8 +244,12 @@ body {
   width: 250px;
   height: auto; /* Altezza automatica */
 }
-
-footer {
+.containerPrinc {
+  display: flex;
+}
+.footer {
+  flex-wrap: wrap;
+  display: flex;
   width: 20%;
 }
 
