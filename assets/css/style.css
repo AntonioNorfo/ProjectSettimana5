@@ -188,7 +188,7 @@ body {
   display: flex;
   align-items: center;
   font-weight: bold;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 .nameInfo p:first-child img {
@@ -200,7 +200,7 @@ body {
 
 .nameInfo p:nth-child(2) {
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin-top: 5px;
 }
 
