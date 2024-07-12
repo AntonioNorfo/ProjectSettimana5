@@ -78,9 +78,18 @@ body {
   transform: translate3d(0px, 0px, 0px);
   content-visibility: visible;
 }
+
+.trending {
+  display: flex;
+  align-items: center;
+  margin: 30px 40px;
+  font-weight: bold;
+}
 .secondContainer {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
-.firstDiv {
-  display: flex;
+.firstDiv p {
+  font-size: 2rem;
 }
