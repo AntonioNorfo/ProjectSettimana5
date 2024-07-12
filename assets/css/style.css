@@ -241,6 +241,12 @@ footer {
   width: 20%;
 }
 
+.btnFinal button {
+  padding: 10px;
+  color: #808080;
+  margin: 3px;
+}
+
 .link {
   display: flex;
   flex-wrap: wrap;
