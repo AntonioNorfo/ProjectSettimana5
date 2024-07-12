@@ -4,7 +4,7 @@ body {
     "Helvetica Neue", sans-serif;
 }
 .containerFirstLogoNav {
-  background-color: #ebc133;
+  background: linear-gradient(to left, rgba(255, 192, 23, 10) 50%, rgba(235, 193, 51, 1) 50%);
 }
 .containerLogoNav {
   display: flex;
@@ -57,16 +57,24 @@ body {
   border: none;
 }
 .title h1 {
-  font-size: 5rem;
+  font-size: 10rem;
   font-weight: 500;
   font-family: "Spectral", serif;
+}
+.title p {
+  font-size: 2rem;
+  color: #363127;
+  font-family: "Spectral", serif;
+}
+.title button {
+  font-size: 1rem;
 }
 
 .containerSvgM {
   display: flex;
   background-color: #ebc133;
   width: 100%;
-  height: 40vh;
+  height: 50vh;
   border: 1px solid rgba(0, 0, 0, 0.37);
 }
 
@@ -97,10 +105,13 @@ body {
 .trending {
   display: flex;
   align-items: center;
-  margin: 0px 40px;
+  margin-left: 15px;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
+}
+.trending img {
+  margin-right: 15px;
 }
 
 .manDiv {
@@ -118,24 +129,34 @@ body {
   padding: 10px;
   display: flex;
   align-items: center;
+  gap: 2px;
+  font-weight: 500;
 }
 .secondDiv p:nth-of-type(1) {
   align-items: center;
 }
 .secondDiv p:nth-of-type(2) {
-  font-weight: bold;
+  font-weight: 700;
+  font-size: 1.2rem;
 }
 .secondDiv p:nth-of-type(3) {
   color: #74767c;
 }
 .secondDiv p img {
-  width: 10%; /* Imposta una dimensione fissa per l'immagine */
+  width: 9%; /* Imposta una dimensione fissa per l'immagine */
   height: auto; /* Mantiene il rapporto di aspetto originale */
   margin-right: 10px;
+}
+.secondDiv span {
+  color: gray;
 }
 .firstImg {
   border-radius: 30px;
 }
 .bordImg {
   border-radius: 8px;
+}
+.secondDiv p img.star {
+  width: 9% !important;
+  height: auto;
 }
