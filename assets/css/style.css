@@ -200,7 +200,8 @@ body {
 
 .nameInfo p:nth-child(2) {
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
+  color: #292929;
   margin-top: 5px;
 }
 
@@ -234,7 +235,7 @@ body {
 }
 
 .InfoNameImg {
-  padding: 15px; /* Spaziatura interna */
+  padding: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -242,46 +243,54 @@ body {
 
 .InfoNameImg img {
   width: 250px;
-  height: auto; /* Altezza automatica */
+  height: auto;
 }
 .containerPrinc {
   display: flex;
   justify-content: center;
-  padding: 3% 5%;
+  padding: 3% 10%;
 }
 .footer {
-  width: 60%;
+  width: 90%;
 }
 .subFooter {
   display: flex;
   flex-wrap: wrap;
   width: 60%;
 }
-
 .containerBtn {
+  margin-bottom: 40px;
 }
-
+.descriptionBtn {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #292929;
+}
 .btnFinal button {
-  padding: 15px;
+  padding: 15px 25px;
   color: #808080;
   margin: 3px;
   background-color: white;
   border: 0.5px solid rgba(0, 0, 0, 0.1);
   border-radius: 3px;
+  font-weight: 600;
 }
 
 .link {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: start;
   list-style-type: none;
+  border-top: 0.5px solid rgba(0, 0, 0, 0.1);
+  padding-top: 20px;
+  font-weight: 600;
 }
 
 .link li {
   padding: 9px;
 }
 .link li a {
-  font-weight: bold;
   color: #808080;
   text-decoration: none;
 }
